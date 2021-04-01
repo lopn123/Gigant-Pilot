@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{4f88e0ae-7caf-4f92-a317-34c336a1b7bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{28116b3b-3caa-42f8-9e7c-0c4192827f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\cScene">
+      <UniqueIdentifier>{576389b8-fc60-4aa5-a9b7-eb83c4b2bf93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="texture">
+      <UniqueIdentifier>{fc2dd075-6ced-4652-9309-d51a2bc3deed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Title">
+      <UniqueIdentifier>{d5f346c8-368e-4935-8c0b-43514a843d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\cScrollMap">
+      <UniqueIdentifier>{ff2c40bb-b9a3-44ae-921f-d81c59aded57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\End">
+      <UniqueIdentifier>{edf416e1-1083-4b15-9021-7ba5783dd03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{c85dd0d1-84a9-44f7-961a-d572cfecf69b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{30b33d6a-829a-48fc-8748-dee90725768d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player\cPlayer">
+      <UniqueIdentifier>{43f77427-b46c-40bc-8a43-2b9247d45a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy">
+      <UniqueIdentifier>{0f14a9f0-5687-43c4-bee6-900894ad2a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\cEnemy">
+      <UniqueIdentifier>{50f01936-5f49-4263-a757-d111cd4041e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Boss">
+      <UniqueIdentifier>{7ad9d259-fbef-481a-b778-35dba3d51365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Boss\cBoss">
+      <UniqueIdentifier>{7423800c-a3c7-45f9-8ee3-f050053c7184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{21054c05-5c97-4b39-b8a3-58c68eb78541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\IMAGE">
+      <UniqueIdentifier>{80058c69-ab7a-42b7-a2aa-690674bb2bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\OBJ">
+      <UniqueIdentifier>{e69cda01-44ce-40b4-a75d-c35d3f2e7272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\RENDER">
+      <UniqueIdentifier>{c2af1f68-fdc6-494d-aba1-8101561cc841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\UI">
+      <UniqueIdentifier>{738d0fba-10e6-40d4-bfb5-7b6f2682f5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\SCENE">
+      <UniqueIdentifier>{5da368df-70bd-4962-a939-009aab8ac210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Sound">
+      <UniqueIdentifier>{268e51c0-9859-45aa-b1f3-86ac19a3581a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\KEY">
+      <UniqueIdentifier>{0edbae86-81c9-4103-97b3-9e4ef38fb99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\TIMER">
+      <UniqueIdentifier>{a7410550-31ba-4be7-b5cf-2628d397748f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame\cAdd">
+      <UniqueIdentifier>{914199e5-e2f6-4ebe-ba37-780d8b804651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effects">
+      <UniqueIdentifier>{8dbd140a-273b-43ce-ae9c-1c329d2f7027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\cBombEnemy">
+      <UniqueIdentifier>{d0e8a774-a3a8-42f4-b280-8abae4e0e2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet">
+      <UniqueIdentifier>{cf6b19db-2d3f-47f9-b111-aede7068fa9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Object\Bullet\PlayerBullet">
+      <UniqueIdentifier>{741ad83e-4b11-4a87-9315-0bcf79e54b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\PlayerBullet\cPlayerBullet">
+      <UniqueIdentifier>{7266dae7-97e9-4216-9620-6d69b97e592f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\EnemyBullet">
+      <UniqueIdentifier>{a08520f2-2dfb-433b-aab8-6850a8475497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\EnemyBullet\cEnemyBullet">
+      <UniqueIdentifier>{ee1780f7-5dfb-414d-a243-dac255ce5dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\EnemyBullet\cEnemyBulletMissile">
+      <UniqueIdentifier>{0051bf82-fa1b-4668-aea3-df7c05f700c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\EnemyBullet\cEnemyDirectShot">
+      <UniqueIdentifier>{d4f7b336-eaa5-46e4-b998-f5fbf49ac294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effects\PlayerEffect">
+      <UniqueIdentifier>{5b3d3427-9b74-40bf-b771-c77225f77269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effects\EnemyEffect">
+      <UniqueIdentifier>{fd0f6b3e-9f91-4f9e-870d-0cf12a7564ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effects\EnemyEffect\cEnemyDeadEffect">
+      <UniqueIdentifier>{65dfe923-4c05-4358-881c-5c52d41c69e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effects\EnemyEffect\cBossDeadEffect">
+      <UniqueIdentifier>{da490aab-7dce-45ad-a67e-307f27c2dff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effects\PlayerEffect\cShieldEffect">
+      <UniqueIdentifier>{cd9c5bff-5547-42a7-a1e0-42a0a9a26096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\EnemyBullet\cEnemyRadianBullet">
+      <UniqueIdentifier>{40c1cf0d-2dde-4145-b944-8f2e5cd7c260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Stage">
+      <UniqueIdentifier>{fc0f2c2a-5ce9-425e-902b-0c725ed792a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmptyProject.cpp" />
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Scenes\cScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cTexture.cpp">
+      <Filter>texture</Filter>
+    </ClCompile>
+    <ClCompile Include="cImageManager.cpp">
+      <Filter>Manager\IMAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>Manager\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>Manager\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="cKeyManager.cpp">
+      <Filter>Manager\KEY</Filter>
+    </ClCompile>
+    <ClCompile Include="cRenderManager.cpp">
+      <Filter>Manager\RENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="cUIManager.cpp">
+      <Filter>Manager\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Manager\SCENE</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoundManager.cpp">
+      <Filter>Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="cTitle.cpp">
+      <Filter>Scenes\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>Object\Player\cPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayerBullet.cpp">
+      <Filter>Object\Bullet\PlayerBullet\cPlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cScrollMap.cpp">
+      <Filter>Scenes\cScrollMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy.cpp">
+      <Filter>Object\Enemy\cEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnd.cpp">
+      <Filter>Scenes\End</Filter>
+    </ClCompile>
+    <ClCompile Include="cBoss.cpp">
+      <Filter>Object\Boss\cBoss</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>Manager\TIMER</Filter>
+    </ClCompile>
+    <ClCompile Include="cAdd.cpp">
+      <Filter>mainGame\cAdd</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyDeadEffect.cpp">
+      <Filter>Object\Effects\EnemyEffect\cEnemyDeadEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="cBossDeadEffect.cpp">
+      <Filter>Object\Effects\EnemyEffect\cBossDeadEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="cBombEnemy.cpp">
+      <Filter>Object\Enemy\cBombEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyBullet.cpp">
+      <Filter>Object\Bullet\EnemyBullet\cEnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyBulletMissile.cpp">
+      <Filter>Object\Bullet\EnemyBullet\cEnemyBulletMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyDirectShot.cpp">
+      <Filter>Object\Bullet\EnemyBullet\cEnemyDirectShot</Filter>
+    </ClCompile>
+    <ClCompile Include="cShieldEffect.cpp">
+      <Filter>Object\Effects\PlayerEffect\cShieldEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyRadianBullet.cpp">
+      <Filter>Object\Bullet\EnemyBullet\cEnemyRadianBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Scenes\Stage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="EmptyProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="singleton.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Scenes\cScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cTexture.h">
+      <Filter>texture</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManager.h">
+      <Filter>Manager\IMAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>Manager\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>Manager\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="cKeyManager.h">
+      <Filter>Manager\KEY</Filter>
+    </ClInclude>
+    <ClInclude Include="cRenderManager.h">
+      <Filter>Manager\RENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="cUIManager.h">
+      <Filter>Manager\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>Manager\SCENE</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoundManager.h">
+      <Filter>Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="cTitle.h">
+      <Filter>Scenes\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>Object\Player\cPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayerBullet.h">
+      <Filter>Object\Bullet\PlayerBullet\cPlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cScrollMap.h">
+      <Filter>Scenes\cScrollMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy.h">
+      <Filter>Object\Enemy\cEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnd.h">
+      <Filter>Scenes\End</Filter>
+    </ClInclude>
+    <ClInclude Include="cBoss.h">
+      <Filter>Object\Boss\cBoss</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>Manager\TIMER</Filter>
+    </ClInclude>
+    <ClInclude Include="cAdd.h">
+      <Filter>mainGame\cAdd</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyDeadEffect.h">
+      <Filter>Object\Effects\EnemyEffect\cEnemyDeadEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="cBossDeadEffect.h">
+      <Filter>Object\Effects\EnemyEffect\cBossDeadEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="cBombEnemy.h">
+      <Filter>Object\Enemy\cBombEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyBullet.h">
+      <Filter>Object\Bullet\EnemyBullet\cEnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyBulletMissile.h">
+      <Filter>Object\Bullet\EnemyBullet\cEnemyBulletMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyDirectShot.h">
+      <Filter>Object\Bullet\EnemyBullet\cEnemyDirectShot</Filter>
+    </ClInclude>
+    <ClInclude Include="cShieldEffect.h">
+      <Filter>Object\Effects\PlayerEffect\cShieldEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyRadianBullet.h">
+      <Filter>Object\Bullet\EnemyBullet\cEnemyRadianBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Scenes\Stage</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
